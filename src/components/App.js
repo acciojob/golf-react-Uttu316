@@ -10,6 +10,7 @@ class App extends Component {
         };
         this.renderChoice = this.renderBallOrButton.bind(this)
         this.buttonClickHandler = this.buttonClickHandler.bind(this)
+	     this.onMove = this.onMove.bind(this);
     };
 
     buttonClickHandler() {
