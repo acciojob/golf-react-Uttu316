@@ -19,7 +19,7 @@ class App extends Component {
 		if (this.state.renderBall) {
 		    return <div className="ball" style={{left:this.state.posi}}></div>
 		} else {
-		    return <button onClick={this.buttonClickHandler} >Start</button>
+		    return <button className="start" onClick={this.buttonClickHandler} >Start</button>
 		}
     }
 onMove() {
