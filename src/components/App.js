@@ -6,7 +6,7 @@ class App extends Component {
         super(props)
         this.state = {
             renderBall: false,
-            posi : 0,
+            posi : 5,
         };
         this.renderChoice = this.renderBallOrButton.bind(this)
         this.buttonClickHandler = this.buttonClickHandler.bind(this)
